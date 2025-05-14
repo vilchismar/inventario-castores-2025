@@ -1,0 +1,14 @@
+1.1) Describe el funcionamiento general de la sentencia JOIN:
+Sirve para unir registros de dos más tablas de acuerdo a la condición relacionada que se le establezca.
+
+1.2) ¿Cuáles son los tipos de JOIN y cuál es el funcionamiento de los mismos?
+-INNER JOIN: Da como resultado solo las coincidencias en ambas tablas.
+-LEFT JOIN: Regresa todos los registros de la tabla izquierda, y coincidencias de la derecha.
+-RIGHT JOIN: Regresa todos los registros de la tabla derecha y coincidencias de la izquierda.
+-FULL JOIN: Regresa todos los registros cuando hay coincidencias en cualquiera de las tablas.
+
+1.3) ¿Cuál es el funcionamiento general de los TRIGGER y qué propósito tienen?
+Son procedimientos que se ejecutan de forma automática a ciertos eventos en una tabla (INSERT, UDPATE, DELETE). Su uso funciona para validar, auditar o modificar datos.
+
+1.4) ¿Qué es y para que sirve un STORED PROCEDURE?
+Son un conjunto de instrucciones SQL que son almacenadas y compiladas en la base de datos. Sirve para reutilizar código (INSERT, UPDATE, DELETE), mejorar el rendimiento ddbido a que se ejecutan más rápido que las consultas estándar al estar almacenados en la base de datos, y también permite agrupar la lógica empresarial en un solo lugar,
